@@ -1,0 +1,6 @@
+#RulesUI configuration
+# Use '\n' To create a new line
+# use '§' To add color to the text
+Title: "§l§aRulesUI"
+Content: "§e You can edit this in the Config.yml file"
+button-name: "§cExit"
