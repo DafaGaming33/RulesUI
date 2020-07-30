@@ -30,8 +30,8 @@ class Main extends PluginBase implements Listener {
             } else {
               $sender->sendMessage("Use this command in game");
             }
-         break;
       }
+      return true;
    }
    
    public function RulesUI($player){
@@ -39,8 +39,12 @@ class Main extends PluginBase implements Listener {
    $form = $api->createSimpleForm(function (Player $player, int $data = null) {
       $result = $data
       if($result === null){
-         case 0:
-         break;
+          return true;
+      }
+      switch($result){
+          case 0:
+
+          break;
       }
    });
    $form->setTitle($this->getConfig()->get("Title"));
