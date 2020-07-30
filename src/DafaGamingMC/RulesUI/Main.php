@@ -27,8 +27,6 @@ class Main extends PluginBase implements Listener {
          case "rules":
             if($sender instanceof Player){
                $this->RulesUI($player);
-            } else {
-              $sender->sendMessage("Use this command in game");
             }
       }
       return true;
