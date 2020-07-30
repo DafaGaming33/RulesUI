@@ -29,7 +29,7 @@ class Main extends PluginBase implements Listener {
 
       switch($cmd->getName()){
          case "rules":
-            if($sender instanceof Player){
+            if($player instanceof Player){
                $this->RulesUI($player);
             }
       }
