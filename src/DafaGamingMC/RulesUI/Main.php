@@ -1,5 +1,7 @@
 <?php
 
+namespace DafaGamingMC\RulesUI;
+
 use pocketmine\Server;
 use pocketmine\Player;
 
