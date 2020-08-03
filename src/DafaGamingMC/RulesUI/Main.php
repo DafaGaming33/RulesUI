@@ -25,7 +25,7 @@ class Main extends PluginBase implements Listener {
       $this->getResource("config.yml");
    }
 
-   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
+   public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args) : bool {
 
       switch($cmd->getName()){
          case "rules":
